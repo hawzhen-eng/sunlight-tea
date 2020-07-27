@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display+SC:ital@1&display=swap');
+* {
+    margin: 0;
+}
+
+
+/* titl */
+
+.header {
+    box-shadow: 5px 5px 10px 0px rgb(175, 155, 40);
+    border-radius: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 19px;
+    text-align: center;
+}
+
+.header a {
+    color: rgb(102, 17, 17);
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #ffd82cec;
+}
+
+
+/* navigation */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(182, 155, 4);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul>li {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0px 20px;
+    padding: 12px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul>li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li:hover {
+    color: rgb(122, 4, 4);
+}
+
+
+/* main */
+
+.top1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.image {
+    display: block;
+    box-shadow: 20px 20px 20px 20px rgb(233, 205, 49);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.padding {
+    display: block;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.padding h4 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.padding p {
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+
+/* map */
+
+.map {
+    column-count: 2;
+    text-align: justify;
+    background-color: rgb(233, 205, 49);
+    padding: 15px;
+    font-size: 1.2rem;
+    line-height: 200%;
+}
+
+.map h1 {
+    padding-left: 150px;
+}
+
+.map h3 {
+    padding-left: 270px;
+}
+
+.map ul {
+    list-style-type: circle;
+    margin: 25px;
+}
+
+.map ul li strong {
+    margin: 50px 50px 0px 0px;
+}

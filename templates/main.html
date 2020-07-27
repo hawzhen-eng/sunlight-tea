@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunlight Tea</title>
+
+    <script src="https://use.fontawesome.com/d8d785908a.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <div class="header">
+        <a href="../templates/main.html"> <strong><h1>Sunlight Tea</h1></strong>For Your Mornings</a>
+    </div>
+</header>
+
+<body class="default page-default">
+    <nav>
+        <div class="nav-top">
+
+            <div class="nav-top-items">
+                <li><a href="#">Cart(0)</a></li>
+                <li onclick="createAcc()">Account</li>
+                <li onclick="help()">Help</i>
+            </div>
+            <form action="#">
+                <input type="search" class="search-data" placeholder="Search" required>
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+        </div>
+
+        <div class="navbar">
+            <div class="navbar-nav">
+                <ul>
+                    <li onclick="home()">Home</li>
+                    <li><a href="/templates/aboutUs.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#">Sale <i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Tea</a></li>
+                            <li><a href="#">Tea Ware</a></li>
+                            <li><a href="#">View All</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Tea <i class="fa fa-angle-down"></i> </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Iced Tea</a></li>
+                            <li><a href="#">Tea Flavor</a></li>
+                            <li><a href="#">TEA Bags</a></li>
+                            <li><a href="#">Tea Type</a></li>
+                        </ul>
+                    </li>
+                    <li onclick="blog()">Blog</li>
+                    <li onclick="signIn()">Sign In</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="intro">
+        <div class="intro-slideshow">
+            <img src="../image/A.jpg">
+            <img src="../image/B.jpg">
+            <img src="../image/C.jpg">
+            <img src="../image/D.jpg">
+            <img src="../image/E.png">
+            <img src="../image/F.jpg">
+            <img src="../image/G.jpg">
+        </div>
+        <div class="intro-main">
+            <strong><p>Life is like making tea!</p></strong>
+            <p>Boil your ego, Evaporat your worries.</p>
+            <p>Dilute your sorrws, Filter your mistakes.</p>
+            <strong><p>Get taste of happiness</p></strong>
+            <p>Sunlight Tea</p>
+        </div>
+    </main>
+
+    <div class="middle">
+
+        <div class="blog ">
+            <h2><strong>   --------   Tea Blog   --------</strong></h2>
+        </div>
+
+        <ul class="blog-img ">
+            <li>
+                <a href="../templates/blog.html"><img src="../image/education.jpg "></a><br/>
+                <div class="blog-p">
+                    <h3>EDUCATION</h3>
+                    <p>The Fundamentals of Tea:</br>The essential knowledge you need to understand this magical drink.</p>
+                </div>
+            </li>
+            <li>
+                <a href="../templates/blog.html"><img src="../image/tea news.jpg"></a><br/>
+                <div class="blog-p">
+                    <h3>TEA NEWS</h3>
+                    <p>Tea leaf extract is the new answer to</br>destroy lung cancer cells</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <section>
+        <div class="sun ">
+            <h2><strong>--------------   Sunlight Tea   ------------</strong></h2>
+        </div>
+
+        <ul class="sec ">
+            <li>
+                <a href="# "><img src="../image/earl gray.jpg "></a><br/>
+                <a href="# "><strong>Earl Grey Tea</strong></a> <br/>$ 10.99</li>
+            <li>
+                <a href="# "><img src="../image/mint tea.jpg "></a><br/>
+                <a href="# "><strong>Mint Green Tea</strong></a><br/>$ 8.99</li>
+            <li>
+                <a href="# "><img src="../image/organic breakfast tea.jpg "></a><br/>
+                <a href="# "><strong>Organic Breakfast Tea</strong></a><br/>$ 12.99</li>
+            <li>
+                <a href="# "><img src="../image/rose chei.jpg "></a><br/>
+                <a href="# "><strong>Rose Tea</strong></a><br/>$ 11.99</li>
+        </ul>
+    </section>
+
+    <div class="newsletter ">
+        <input type="email " class="form-control " id="email " name="email " required placeholder="Enter email for Tea News ">
+        <button class="btn-sign_up "><a href="/templates/createAcc.html ">Sign Up</a></button>
+        <h4 class="newsletter_first ">Sign up &amp;get 10% off your first purchase! </h4>
+    </div>
+
+    <footer>
+        <div class="main-content ">
+
+            <div class="left box ">
+                <h2>
+                    About us</h2>
+                <div class="content ">
+                    <p>
+                        <em>With Sunlight Tea, it’s all about intensifying your tea experience.</em>
+                    </p>
+                    <div class="social ">
+                        <a href="# "><span class="fab fa-facebook-f "></span></a>
+                        <a href="# "><span class="fab fa-twitter "></span></a>
+                        <a href="# "><span class="fab fa-instagram "></span></a>
+                        <a href="# "><span class="fab fa-youtube "></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box ">
+                <h2>
+                    Address</h2>
+                <div class="content ">
+                    <div class="place ">
+                        <span class="fas fa-map-marker-alt "></span>
+                        <span class="text ">Buffalo</span>
+                    </div>
+                    <div class="phone ">
+                        <span class="fas fa-phone-alt "></span>
+                        <span class="text ">(716)609-9769</span>
+                    </div>
+                    <div class="email ">
+                        <span class="fas fa-envelope "></span>
+                        <span class="text ">h2zhena7@yahoo.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box ">
+                <h2>Contact us</h2>
+                <div class="content ">
+                    <form action="# ">
+                        <div class="email ">
+                            <div class="text ">
+                                Email *
+                            </div>
+                            <input type="email " required>
+                        </div>
+                        <dr/>
+                        <div class="btn ">
+                            <button type="submit "><a href="../templates/contact.html ">Send</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="../scripts/main.js "></script>
+
+</body>
+
+</html>
